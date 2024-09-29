@@ -96,7 +96,7 @@ const InfoForm = () => {
       <form className="mt-4 shadow h-100 w-100" style={{backgroundColor : "yellowgreen"}}>
         <div class="row p-3">
           {/* Total Capital  */}
-          <div className="col-4 p-4">
+          <div className="col-lg-4 p-4">
             <label for="capital" class="form-label">
               Capital
             </label>
@@ -115,7 +115,7 @@ const InfoForm = () => {
           </div>
 
           {/* Lot Size  */}
-          <div className="col-4 p-4">
+          <div className="col-lg-4 p-4">
             <label for="lotSize" class="form-label">
               Lot Size
             </label>
@@ -134,7 +134,7 @@ const InfoForm = () => {
           </div>
 
           {/* Buying Price for Stock  */}
-          <div className="col-4 p-4">
+          <div className="col-lg-4 p-4">
             <label for="buyingPrice" class="form-label">
               Buying Price
             </label>
@@ -155,7 +155,7 @@ const InfoForm = () => {
 
         <div class="row p-3">
           {/* Selling Price for Stock  */}
-          <div className="col-4 p-4">
+          <div className="col-lg-4 p-4">
             <label for="sellingPrice" class="form-label">
               Selling Price
             </label>
@@ -174,7 +174,7 @@ const InfoForm = () => {
           </div>
 
           {/* Stop Loss  */}
-          <div className="col-4 p-4">
+          <div className="col-lg-4 p-4">
             <label for="stopLoss" class="form-label">
               Stop Loss
             </label>
